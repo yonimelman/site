@@ -1,8 +1,9 @@
-baseurl = "localhost"
+baseurl = "https://yonimelman.github.io/"
 languageCode = "en-us"
-Title = "Hudev"
+Title = "hudev"
 # Copyright notice. This is displayer in the footer.
 copyright = "&copy; Copyright notice"
+
 theme = "pickles"
 [params]
   paginate = 10
@@ -10,18 +11,19 @@ theme = "pickles"
   # footer
   github = "yonimelman"
   linkedin = "yoni-melman-2b5a5aa1"
+  disqus = "yonimelman"
+
   # Disqus shortname
   # Google Analytics API key.
   ga_api_key = "Your Google Analytics tracking id"
   author = "Yoni Melman"
   avatar = "https://avatars3.githubusercontent.com/u/5171942?s=460&v=4"
   contact = "mailto:yoni.melman@gmail.com"
-  bio = "Software Engineer team leader albert.ai. Previously a Cognitive Neuroscience/ Cognitive Psychology researcher Ben-Gurion university of the Negev, Israel"
+  bio = "Python Developer, Food and Markup languges enthusiast."
 
   # Short subtitle/tagline. This is displayed in the header.
-  subtitle = "Code for human developers"
+  subtitle = "# Blog for human developers"
   # Logo image. This is displayed ogp image.
-  logo = "/path/to/logo"
   favicon = "/path/to/favicon"
 
 [[menu.main]]
@@ -29,15 +31,15 @@ theme = "pickles"
     url = "/"
     weight = 1
 
-#[[menu.main]]
-#    name = "About"
-#    url = "/about"
-#    weight = 2
-#
 [[menu.main]]
     name = "Tags"
     url = "/tags"
-    weight = 4
+    weight = 2
+
+#[[menu.main]]
+#    name = "About"
+#    url = "/about"
+#    weight = 3
 
 [related]
   # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
